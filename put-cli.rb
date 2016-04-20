@@ -6,7 +6,6 @@ class PutCli < Formula
 
   def install
     system "make"
-    system "make", "install"
     bin.install "build/put"
     bash_completion.install "build/autocomplete_script" => "put"
     (bash_completion/"helpers").install "build/autocomplete" => "put"

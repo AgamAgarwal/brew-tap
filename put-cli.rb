@@ -1,8 +1,10 @@
 class PutCli < Formula
   desc "Command-line utility for put.io"
   homepage "https://github.com/AjayBrahmakshatriya/put-cli/"
-  url "https://github.com/AjayBrahmakshatriya/put-cli/archive/0.1.5.tar.gz"
-  sha256 "ab31c8b4dead60ccba2b6652c5ce1f67d81747cfde36398d6f80abe1e05727fb"
+  url "https://github.com/AjayBrahmakshatriya/put-cli/archive/0.2.tar.gz"
+  sha256 "864bd4b1ece05651084d69d9a28c4faae2c5930369369ca4f97cb0e942db07b3"
+
+  depends_on "arghandler" => :python
 
   def install
     system "make"

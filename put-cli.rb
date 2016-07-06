@@ -1,8 +1,8 @@
 class PutCli < Formula
   desc "Command-line utility for put.io"
   homepage "https://github.com/AjayBrahmakshatriya/put-cli/"
-  url "https://github.com/AjayBrahmakshatriya/put-cli/archive/0.2.tar.gz"
-  sha256 "864bd4b1ece05651084d69d9a28c4faae2c5930369369ca4f97cb0e942db07b3"
+  url "https://github.com/AjayBrahmakshatriya/put-cli/archive/0.3.tar.gz"
+  sha256 "1ba5b6ff45c392120370c489bec71ab09b953088f666c9bc509b9d5484004a35"
 
   depends_on "arghandler" => :python
 
